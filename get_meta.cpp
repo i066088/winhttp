@@ -22,7 +22,7 @@ int main()
 	// Create an HTTP Request handle.
 	if (hConnect)
 		hRequest = WinHttpOpenRequest(hConnect, L"GET",
-			L"/sld/sld.svc/$metadata",
+			L"/myodata.svc/$metadata",
 			NULL, WINHTTP_NO_REFERER,
 			WINHTTP_DEFAULT_ACCEPT_TYPES,
 			WINHTTP_FLAG_SECURE);
